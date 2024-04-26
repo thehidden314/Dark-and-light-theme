@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@font-face {
+    font-family: 'AlphaMono';
+    src: url('./fonts/HMAlphaMono-Medium.otf') format('opentype');
+}
+
+
+:root {
+    --principal-color: #FBF8F8;
+    --light-green-color: #27A782;
+    --white-color: #fff;
+    --rose-light-color: #f5d9bc;
+    --black:#0A0A0A;
+    --maPolice: 'AlphaMono', sans-serif;
+    --timer: 1.5s;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    overflow: hidden;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    position: relative;
+}
+.header{
+    width: 100%;
+    height: 5%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10%;
+}
+.main{
+    width: 100%;
+    height: 95%;
+    position: absolute;
+    top: 5%;
+    padding: 15%;
+    text-align: center;
+}
+
+i:hover{
+    cursor: pointer;
+}
+
+.clair{
+    margin-right: 5%;
+}
+.sombre{
+    margin-right: 5%;
+    display: none;
+    
+}
+.themeSombre{
+    background-color: #0A0A0A;
+    color: #fff;
+}
