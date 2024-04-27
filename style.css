@@ -6,13 +6,9 @@
 
 
 :root {
-    --principal-color: #FBF8F8;
-    --light-green-color: #27A782;
     --white-color: #fff;
-    --rose-light-color: #f5d9bc;
-    --black:#0A0A0A;
+    --black-color:#0A0A0A;
     --maPolice: 'AlphaMono', sans-serif;
-    --timer: 1.5s;
 }
 *{
     margin: 0;
@@ -22,7 +18,7 @@
     outline: none;
     border: none;
     box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
+    font-family: var(--maPolice);
 }
 body{
     overflow: hidden;
@@ -73,6 +69,6 @@ i:hover{
     
 }
 .themeSombre{
-    background-color: #0A0A0A;
-    color: #fff;
+    background-color: var(--black-color);
+    color: var(--white-color);
 }
